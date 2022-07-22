@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:id="@+id/bottomSheet"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/delete_indictor_shape"
+        android:layout_height="7dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/product_sans_regular"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="삭제하시겠습니까?"
+
+
+
+        />
+
+    <TextView
+        android:id="@+id/delete_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="예"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="7dp"
+        android:background="@drawable/yes_delete"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/grey"
+        android:fontFamily="@font/product_sans_regular"/>
+
+    <TextView
+        android:id="@+id/delete_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아니오"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="7dp"
+        android:background="@drawable/no_delete"
+        android:textColor="@color/black"
+        android:fontFamily="@font/product_sans_regular"/>
+
+
+
+
+</LinearLayout>
